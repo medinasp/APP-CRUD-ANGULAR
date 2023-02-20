@@ -1,0 +1,122 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: tomato;
+  }
+  
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1;
+}
+
+.item-1 {
+  margin-right: 10px;
+}
+
+.item-2 {
+  margin-left: 10px;
+}
+
+.titles {
+  padding-bottom:1% !important;
+}
+
+.forms {
+  width:100%
+}
+
+  .footer {
+    background: tomato;
+  }
+  
+  .main {
+    text-align: left;
+    background: white;
+    color:  rgb(15, 26, 22);
+    padding: 2rem;
+    border-radius: 7px;
+  }
+
+  .lista {
+    text-align: center;
+    background-color:  rgb(15, 26, 22);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+  }
+
+  .aside {
+    text-align: center;
+    background-color:  rgb(15, 26, 22);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    height: 35%;
+  }
+
+  .aside-1 {
+    text-align: center;
+    background-color:  rgb(15, 26, 22);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 7px;
+    height: 55%;
+  }
+  
+  .aside-2 {
+    background: tomato;
+    padding: 2rem;
+    border-radius: 7px;
+  }
+  
+  @media all and (max-width: 800px) {
+    .asidemob { display:flex;  flex-direction: column; margin: 5px;}
+  }
+  
+  @media all and (min-width: 800px) {
+    .container {order: 1;}
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 2; } 
+    .main    { order: 3; }
+    .aside-2 { order: 4; }
+    .footer  { order: 5; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
+  
+  
+  table {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 7px;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 40%;
+  }
+  
+  td, th {
+    width: 25%;
+     text-align: center  !important; 
+  }
+  
+  /* th.mat-header-cell {
+    /* text-align: left; */
+  /* } */ 
