@@ -4,8 +4,9 @@
 
 export const environment = {
     production: false,
-    apiBackEnd:"https://localhost:7295/api/",
-    apiToken:"https://localhost:7295/api/CreateToken/"
+    // apiBackEnd:"https://localhost:7295/api/",
+    apiBackEnd:"https://appcrudangulardotnet.azurewebsites.net/api/",
+    apiToken:"https://appcrudangulardotnet.azurewebsites.net/api/CreateToken/"
   };
   
   /*
